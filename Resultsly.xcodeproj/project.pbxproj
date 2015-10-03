@@ -13,6 +13,14 @@
 		1C6CF7C41BBFA3AA00C3FAA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C6CF7C21BBFA3AA00C3FAA5 /* Main.storyboard */; };
 		1C6CF7C61BBFA3AA00C3FAA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C6CF7C51BBFA3AA00C3FAA5 /* Assets.xcassets */; };
 		1C6CF7C91BBFA3AA00C3FAA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C6CF7C71BBFA3AA00C3FAA5 /* LaunchScreen.storyboard */; };
+		1C6CF8791BBFB23700C3FAA5 /* OnboardHomeLogicManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6CF8601BBFB23600C3FAA5 /* OnboardHomeLogicManager.m */; settings = {ASSET_TAGS = (); }; };
+		1C6CF87A1BBFB23700C3FAA5 /* OnboardHomeMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6CF8661BBFB23600C3FAA5 /* OnboardHomeMainView.m */; settings = {ASSET_TAGS = (); }; };
+		1C6CF87B1BBFB23700C3FAA5 /* OnboardHomeMainViewOwner.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6CF8681BBFB23600C3FAA5 /* OnboardHomeMainViewOwner.m */; settings = {ASSET_TAGS = (); }; };
+		1C6CF87C1BBFB23700C3FAA5 /* OnboardHomeViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6CF86B1BBFB23600C3FAA5 /* OnboardHomeViewManager.m */; settings = {ASSET_TAGS = (); }; };
+		1C6CF87D1BBFB23700C3FAA5 /* OnboardHomeMainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C6CF86F1BBFB23600C3FAA5 /* OnboardHomeMainView.xib */; settings = {ASSET_TAGS = (); }; };
+		1C6CF87E1BBFB23700C3FAA5 /* OnboardHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6CF8721BBFB23700C3FAA5 /* OnboardHomeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		1C6CF87F1BBFB23700C3FAA5 /* OnboardHomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6CF8751BBFB23700C3FAA5 /* OnboardHomeViewModel.m */; settings = {ASSET_TAGS = (); }; };
+		1C6CF8801BBFB23700C3FAA5 /* OnboardHomeViewModelGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6CF8781BBFB23700C3FAA5 /* OnboardHomeViewModelGenerator.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,25 @@
 		1C6CF7C51BBFA3AA00C3FAA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C6CF7C81BBFA3AA00C3FAA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C6CF7CA1BBFA3AA00C3FAA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C6CF85E1BBFB23600C3FAA5 /* OnboardHomeLmToVcProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnboardHomeLmToVcProtocol.h; sourceTree = "<group>"; };
+		1C6CF85F1BBFB23600C3FAA5 /* OnboardHomeLogicManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnboardHomeLogicManager.h; sourceTree = "<group>"; };
+		1C6CF8601BBFB23600C3FAA5 /* OnboardHomeLogicManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnboardHomeLogicManager.m; sourceTree = "<group>"; };
+		1C6CF8611BBFB23600C3FAA5 /* OnboardHomeLogicManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnboardHomeLogicManagerDelegate.h; sourceTree = "<group>"; };
+		1C6CF8651BBFB23600C3FAA5 /* OnboardHomeMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnboardHomeMainView.h; sourceTree = "<group>"; };
+		1C6CF8661BBFB23600C3FAA5 /* OnboardHomeMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnboardHomeMainView.m; sourceTree = "<group>"; };
+		1C6CF8671BBFB23600C3FAA5 /* OnboardHomeMainViewOwner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnboardHomeMainViewOwner.h; sourceTree = "<group>"; };
+		1C6CF8681BBFB23600C3FAA5 /* OnboardHomeMainViewOwner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnboardHomeMainViewOwner.m; sourceTree = "<group>"; };
+		1C6CF86A1BBFB23600C3FAA5 /* OnboardHomeViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnboardHomeViewManager.h; sourceTree = "<group>"; };
+		1C6CF86B1BBFB23600C3FAA5 /* OnboardHomeViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnboardHomeViewManager.m; sourceTree = "<group>"; };
+		1C6CF86C1BBFB23600C3FAA5 /* OnboardHomeViewManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnboardHomeViewManagerDelegate.h; sourceTree = "<group>"; };
+		1C6CF86D1BBFB23600C3FAA5 /* OnboardHomeVmToVcProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnboardHomeVmToVcProtocol.h; sourceTree = "<group>"; };
+		1C6CF86F1BBFB23600C3FAA5 /* OnboardHomeMainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OnboardHomeMainView.xib; sourceTree = "<group>"; };
+		1C6CF8711BBFB23700C3FAA5 /* OnboardHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnboardHomeViewController.h; sourceTree = "<group>"; };
+		1C6CF8721BBFB23700C3FAA5 /* OnboardHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnboardHomeViewController.m; sourceTree = "<group>"; };
+		1C6CF8741BBFB23700C3FAA5 /* OnboardHomeViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnboardHomeViewModel.h; sourceTree = "<group>"; };
+		1C6CF8751BBFB23700C3FAA5 /* OnboardHomeViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnboardHomeViewModel.m; sourceTree = "<group>"; };
+		1C6CF8771BBFB23700C3FAA5 /* OnboardHomeViewModelGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnboardHomeViewModelGenerator.h; sourceTree = "<group>"; };
+		1C6CF8781BBFB23700C3FAA5 /* OnboardHomeViewModelGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnboardHomeViewModelGenerator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +69,8 @@
 		1C6CF7AD1BBFA3A900C3FAA5 = {
 			isa = PBXGroup;
 			children = (
+				1C6CF7D01BBFA46E00C3FAA5 /* Classes */,
+				1C6CF8821BBFB62300C3FAA5 /* Images */,
 				1C6CF7B81BBFA3A900C3FAA5 /* Resultsly */,
 				1C6CF7B71BBFA3A900C3FAA5 /* Products */,
 			);
@@ -77,6 +106,128 @@
 				1C6CF7BA1BBFA3A900C3FAA5 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1C6CF7D01BBFA46E00C3FAA5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1C6CF85C1BBFB23600C3FAA5 /* OnboardHome */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1C6CF85C1BBFB23600C3FAA5 /* OnboardHome */ = {
+			isa = PBXGroup;
+			children = (
+				1C6CF85D1BBFB23600C3FAA5 /* LogicManager */,
+				1C6CF8621BBFB23600C3FAA5 /* UnitTests */,
+				1C6CF8631BBFB23600C3FAA5 /* View */,
+				1C6CF8701BBFB23600C3FAA5 /* ViewController */,
+				1C6CF8731BBFB23700C3FAA5 /* ViewModel */,
+				1C6CF8761BBFB23700C3FAA5 /* ViewModelGenerator */,
+			);
+			name = OnboardHome;
+			path = Classes/OnboardHome;
+			sourceTree = "<group>";
+		};
+		1C6CF85D1BBFB23600C3FAA5 /* LogicManager */ = {
+			isa = PBXGroup;
+			children = (
+				1C6CF85E1BBFB23600C3FAA5 /* OnboardHomeLmToVcProtocol.h */,
+				1C6CF85F1BBFB23600C3FAA5 /* OnboardHomeLogicManager.h */,
+				1C6CF8601BBFB23600C3FAA5 /* OnboardHomeLogicManager.m */,
+				1C6CF8611BBFB23600C3FAA5 /* OnboardHomeLogicManagerDelegate.h */,
+			);
+			path = LogicManager;
+			sourceTree = "<group>";
+		};
+		1C6CF8621BBFB23600C3FAA5 /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UnitTests;
+			sourceTree = "<group>";
+		};
+		1C6CF8631BBFB23600C3FAA5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1C6CF8641BBFB23600C3FAA5 /* MainView */,
+				1C6CF8691BBFB23600C3FAA5 /* ViewManager */,
+				1C6CF86E1BBFB23600C3FAA5 /* XIB */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1C6CF8641BBFB23600C3FAA5 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				1C6CF8651BBFB23600C3FAA5 /* OnboardHomeMainView.h */,
+				1C6CF8661BBFB23600C3FAA5 /* OnboardHomeMainView.m */,
+				1C6CF8671BBFB23600C3FAA5 /* OnboardHomeMainViewOwner.h */,
+				1C6CF8681BBFB23600C3FAA5 /* OnboardHomeMainViewOwner.m */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		1C6CF8691BBFB23600C3FAA5 /* ViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				1C6CF86A1BBFB23600C3FAA5 /* OnboardHomeViewManager.h */,
+				1C6CF86B1BBFB23600C3FAA5 /* OnboardHomeViewManager.m */,
+				1C6CF86C1BBFB23600C3FAA5 /* OnboardHomeViewManagerDelegate.h */,
+				1C6CF86D1BBFB23600C3FAA5 /* OnboardHomeVmToVcProtocol.h */,
+			);
+			path = ViewManager;
+			sourceTree = "<group>";
+		};
+		1C6CF86E1BBFB23600C3FAA5 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				1C6CF86F1BBFB23600C3FAA5 /* OnboardHomeMainView.xib */,
+			);
+			path = XIB;
+			sourceTree = "<group>";
+		};
+		1C6CF8701BBFB23600C3FAA5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1C6CF8711BBFB23700C3FAA5 /* OnboardHomeViewController.h */,
+				1C6CF8721BBFB23700C3FAA5 /* OnboardHomeViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1C6CF8731BBFB23700C3FAA5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1C6CF8741BBFB23700C3FAA5 /* OnboardHomeViewModel.h */,
+				1C6CF8751BBFB23700C3FAA5 /* OnboardHomeViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1C6CF8761BBFB23700C3FAA5 /* ViewModelGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				1C6CF8771BBFB23700C3FAA5 /* OnboardHomeViewModelGenerator.h */,
+				1C6CF8781BBFB23700C3FAA5 /* OnboardHomeViewModelGenerator.m */,
+			);
+			path = ViewModelGenerator;
+			sourceTree = "<group>";
+		};
+		1C6CF8821BBFB62300C3FAA5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1C6CF8831BBFB62300C3FAA5 /* Onboarding */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		1C6CF8831BBFB62300C3FAA5 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +289,7 @@
 			files = (
 				1C6CF7C91BBFA3AA00C3FAA5 /* LaunchScreen.storyboard in Resources */,
 				1C6CF7C61BBFA3AA00C3FAA5 /* Assets.xcassets in Resources */,
+				1C6CF87D1BBFB23700C3FAA5 /* OnboardHomeMainView.xib in Resources */,
 				1C6CF7C41BBFA3AA00C3FAA5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,7 +303,14 @@
 			files = (
 				1C6CF7C11BBFA3AA00C3FAA5 /* ViewController.m in Sources */,
 				1C6CF7BE1BBFA3AA00C3FAA5 /* AppDelegate.m in Sources */,
+				1C6CF87C1BBFB23700C3FAA5 /* OnboardHomeViewManager.m in Sources */,
+				1C6CF87E1BBFB23700C3FAA5 /* OnboardHomeViewController.m in Sources */,
 				1C6CF7BB1BBFA3A900C3FAA5 /* main.m in Sources */,
+				1C6CF8801BBFB23700C3FAA5 /* OnboardHomeViewModelGenerator.m in Sources */,
+				1C6CF87F1BBFB23700C3FAA5 /* OnboardHomeViewModel.m in Sources */,
+				1C6CF8791BBFB23700C3FAA5 /* OnboardHomeLogicManager.m in Sources */,
+				1C6CF87B1BBFB23700C3FAA5 /* OnboardHomeMainViewOwner.m in Sources */,
+				1C6CF87A1BBFB23700C3FAA5 /* OnboardHomeMainView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +422,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Resultsly/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = c.Resultsly;
@@ -274,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Resultsly/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = c.Resultsly;
@@ -300,6 +461,7 @@
 				1C6CF7CF1BBFA3AA00C3FAA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

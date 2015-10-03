@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OnboardHomeMainViewOwner">
+            <connections>
+                <outlet property="myView" destination="iN0-l3-epB" id="QvL-Gg-7ga"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="OnboardHomeMainView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="OnboardBackground.png" translatesAutoresizingMaskIntoConstraints="NO" id="ANL-f4-31a">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JX6-ob-Y0d">
+                    <rect key="frame" x="10" y="514" width="300" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="Uns-S2-m0g"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" title="Read News">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="ANL-f4-31a" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="6y9-w2-3lq"/>
+                <constraint firstAttribute="trailing" secondItem="ANL-f4-31a" secondAttribute="trailing" id="73b-qt-zFx"/>
+                <constraint firstAttribute="bottom" secondItem="JX6-ob-Y0d" secondAttribute="bottom" constant="10" id="81k-ZH-DFh"/>
+                <constraint firstAttribute="trailing" secondItem="JX6-ob-Y0d" secondAttribute="trailing" constant="10" id="8SH-Je-yYL"/>
+                <constraint firstAttribute="bottom" secondItem="ANL-f4-31a" secondAttribute="bottom" id="GxM-jk-pFQ"/>
+                <constraint firstItem="JX6-ob-Y0d" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="Hbg-px-oH1"/>
+                <constraint firstItem="ANL-f4-31a" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Psw-z1-u6K"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="backgroundImageView" destination="ANL-f4-31a" id="Hfj-em-tjX"/>
+                <outlet property="enterButton" destination="JX6-ob-Y0d" id="qy8-pe-D6T"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="OnboardBackground.png" width="320" height="568"/>
+    </resources>
+</document>
